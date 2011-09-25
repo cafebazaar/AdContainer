@@ -1,0 +1,11 @@
+meta/0.*
+meta/m0*
+meta/password.properties
+meta/*.csv
+*.class
+meta/apps/*
+bin
+gen
+.settings
+.classpath
+*~
