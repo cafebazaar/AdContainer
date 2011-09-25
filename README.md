@@ -1,0 +1,1 @@
+A simple app that contains an ad from Adad.
