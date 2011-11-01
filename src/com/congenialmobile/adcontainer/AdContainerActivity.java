@@ -16,8 +16,11 @@
 
 package com.congenialmobile.adcontainer;
 
+import com.congenialmobile.adad.AdView;
+
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 
 public class AdContainerActivity extends Activity {
     /** Called when the activity is first created. */
@@ -26,4 +29,10 @@ public class AdContainerActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
     }
+    
+    public void refresh(View view) {
+    	AdView adView = (AdView) findViewById(R.id.ad);
+    	adView.loadUrl(adView.getUrl());
+    }
+    
 }
